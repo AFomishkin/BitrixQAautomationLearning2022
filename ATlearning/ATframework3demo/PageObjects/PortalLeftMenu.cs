@@ -19,5 +19,10 @@ namespace atFrameWork2.PageObjects
             new WebItem("//li[@id='bx_left_menu_menu_sites']", "Пункт левого меню 'Сайты'").Click();
             return new SiteListPage();
         }
+
+        internal void OpenSettings()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
