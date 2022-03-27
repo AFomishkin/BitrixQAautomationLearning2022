@@ -12,5 +12,6 @@
                 "Область получателей поста");
             return recipientsArea.AssertTextContains(recipientName, default);
         }
+        //тут будет открытие диалога загрузки файлов
     }
 }
